@@ -9,7 +9,33 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## How to use ZPScrollerScaleView
+```
+    /**初始化配置项*/
+        ZPScrollerScaleViewConfig * config = [[ZPScrollerScaleViewConfig alloc]init];
+        config.scaleMin = 0.9;
+        config.scaleMax = 1;
+        config.pageSize = CGSizeMake([UIScreen mainScreen].bounds.size.width - 100, 400);
+        config.ItemMaingin = 5;
+       
+        
+        /**初始化滚动缩放视图*/
+        ZPScrollerScaleView * tempView = [[ZPScrollerScaleView alloc] initWithConfig:config];
+        
+        /**设置默认展示*/
+        tempView.defalutIndex = 1;
+        
+        /**添加子视图view到items数组中用于展示*/
+        tempView.items =@[view1,view2,view3,....];
+        
+```
+
+## 如何获取当前下标值
+
+```
+NSInteger currentIndex = tempView.currentIndex;
+
+```
 
 ## Installation
 
@@ -27,3 +53,6 @@ pod 'ZPScrollerScaleView'
 ## License
 
 ZPScrollerScaleView is available under the MIT license. See the LICENSE file for more info.
+
+## 简书链接
+[https://www.jianshu.com/p/61c6640919e6](https://www.jianshu.com/p/61c6640919e6)

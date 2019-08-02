@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		220DE4BB99386BE543272B27AE57CAEC /* Pods-ZPScrollerScaleView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 297F3DF2488FCD40B8049C7F3DC5EC7D /* Pods-ZPScrollerScaleView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38D85DC228EA6A58DAC79E19A792050B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AE523CA590151E7E80B4156678F4EA /* ReplaceMe.m */; };
-		42F38C1B710BF01A5D90A3F9A621D6E3 /* ZPScrollerScaleView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3092D2AD4A982373CDC8AFDB6267E74F /* ZPScrollerScaleView-dummy.m */; };
 		684C1292A50F82C79C74E06AE7759836 /* Pods-ZPScrollerScaleView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7B82711DB47042A22DD8848C807543 /* Pods-ZPScrollerScaleView_Tests-dummy.m */; };
 		89832DB77ECEE43165B4BFBD101C611C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		ABAA9F18ADA8DB4E7AE7F2BE542C86D1 /* ZPScrollerScaleView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60BE2A6BA6CB3AE4A7B268527D39912F /* ZPScrollerScaleView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91C1E56F04A2190139280A4CBA91BB78 /* ZPScrollerScaleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A997EED736A078830E951B91CC168C2 /* ZPScrollerScaleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CF9159E6E9EF76E1F0353072112D676 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		AC762CFF16D68B07289D84A10989C209 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AF26BAFBB3A26CC9A551C095945FAF30 /* ZPScrollerScaleView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44784CAA63E1BF61EA1E89E3A18A37AB /* ZPScrollerScaleView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B67FE950E85BBC11B6C2AFF042763303 /* ZPScrollerScaleView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36744633BBAB7D3A928359AF89600561 /* ZPScrollerScaleView-dummy.m */; };
 		B8A83DC39E3BAECF6570A4D11831C420 /* Pods-ZPScrollerScaleView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F276A5A4C3AD09077C6ABD2AB64A14C /* Pods-ZPScrollerScaleView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB74149B2AD3E8D59DC0EBDF9AD8943F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D58A8E86BF11868BBEA2C5EAC8C91A3F /* ZPScrollerScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14111A621F3B69AB0D9060E42A75C708 /* ZPScrollerScaleView.m */; };
 		F209E374C56B379B00ED6A7871E25D86 /* Pods-ZPScrollerScaleView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C561251B5680A47EAAA8D92A5626F2B4 /* Pods-ZPScrollerScaleView_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -37,46 +38,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A997EED736A078830E951B91CC168C2 /* ZPScrollerScaleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZPScrollerScaleView.h; path = ZPScrollerScaleView/Classes/ZPScrollerScaleView.h; sourceTree = "<group>"; };
 		0D7B82711DB47042A22DD8848C807543 /* Pods-ZPScrollerScaleView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPScrollerScaleView_Tests-dummy.m"; sourceTree = "<group>"; };
-		17FD4A04F1B6628F46FC96BE71F4A086 /* ZPScrollerScaleView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZPScrollerScaleView-Info.plist"; sourceTree = "<group>"; };
-		221BF9378799EB584B133FF38B01C3E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		14111A621F3B69AB0D9060E42A75C708 /* ZPScrollerScaleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZPScrollerScaleView.m; path = ZPScrollerScaleView/Classes/ZPScrollerScaleView.m; sourceTree = "<group>"; };
+		1EC01181EF1C082AE78C8509071607E6 /* ZPScrollerScaleView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZPScrollerScaleView.modulemap; sourceTree = "<group>"; };
 		2323B07FD42F67FCDC310F1830ABE9C8 /* Pods-ZPScrollerScaleView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZPScrollerScaleView_Example.modulemap"; sourceTree = "<group>"; };
 		297F3DF2488FCD40B8049C7F3DC5EC7D /* Pods-ZPScrollerScaleView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZPScrollerScaleView_Example-umbrella.h"; sourceTree = "<group>"; };
 		2A3CA61C7EC2EBAB176B44E72804160F /* Pods-ZPScrollerScaleView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPScrollerScaleView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2EC0C0D0C5093F7FD756CD772C106AFC /* Pods-ZPScrollerScaleView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZPScrollerScaleView_Tests.modulemap"; sourceTree = "<group>"; };
-		3092D2AD4A982373CDC8AFDB6267E74F /* ZPScrollerScaleView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZPScrollerScaleView-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		36744633BBAB7D3A928359AF89600561 /* ZPScrollerScaleView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZPScrollerScaleView-dummy.m"; sourceTree = "<group>"; };
 		36A8112EE6220C03DB2C381F53D2C022 /* Pods_ZPScrollerScaleView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZPScrollerScaleView_Tests.framework; path = "Pods-ZPScrollerScaleView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C931BF5720EF1F45CD5B027114DDA16 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		44784CAA63E1BF61EA1E89E3A18A37AB /* ZPScrollerScaleView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPScrollerScaleView-umbrella.h"; sourceTree = "<group>"; };
 		44C812DCD6F59205670790D19E25D0F3 /* Pods-ZPScrollerScaleView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPScrollerScaleView_Tests-Info.plist"; sourceTree = "<group>"; };
 		499196728ABB0BE14106006925850BE9 /* Pods-ZPScrollerScaleView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPScrollerScaleView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5F276A5A4C3AD09077C6ABD2AB64A14C /* Pods-ZPScrollerScaleView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZPScrollerScaleView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		60BE2A6BA6CB3AE4A7B268527D39912F /* ZPScrollerScaleView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPScrollerScaleView-umbrella.h"; sourceTree = "<group>"; };
+		69D5465E5B50D125B2F88445B2526268 /* ZPScrollerScaleView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZPScrollerScaleView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		729A66AA581FF2A58D3489EE6E8CC656 /* ZPScrollerScaleView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZPScrollerScaleView-Info.plist"; sourceTree = "<group>"; };
 		733201AA0BBFE2E7E6C57599B42BC773 /* Pods-ZPScrollerScaleView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPScrollerScaleView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8EF764FCDFA9DDB26C6A649DE7C11C01 /* ZPScrollerScaleView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPScrollerScaleView-prefix.pch"; sourceTree = "<group>"; };
-		94A14B34635C7C1B3224F8E632605445 /* ZPScrollerScaleView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZPScrollerScaleView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7E5FA3979660B2837D7C0F5734B64461 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8D84B88E2828C88266268186C8CCFD71 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		970DABA54AB35E02FE431365C4817D90 /* Pods_ZPScrollerScaleView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZPScrollerScaleView_Example.framework; path = "Pods-ZPScrollerScaleView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		971BFC8D8EC410BF2D981911A02397EB /* Pods-ZPScrollerScaleView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPScrollerScaleView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FEE5D45C8F52AD4418D9E013929900A /* ZPScrollerScaleView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPScrollerScaleView-prefix.pch"; sourceTree = "<group>"; };
 		A526BBCA12F9526AB4A5CC0C8066989C /* ZPScrollerScaleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZPScrollerScaleView.framework; path = ZPScrollerScaleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A972A2CA92C9BC3807D6FEE1220EB435 /* Pods-ZPScrollerScaleView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPScrollerScaleView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B5F494657776E581383BB6A4F2DA421B /* Pods-ZPScrollerScaleView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPScrollerScaleView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C228B5E2A14A886223682B9F85DCFE2D /* Pods-ZPScrollerScaleView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPScrollerScaleView_Example-Info.plist"; sourceTree = "<group>"; };
 		C561251B5680A47EAAA8D92A5626F2B4 /* Pods-ZPScrollerScaleView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPScrollerScaleView_Example-dummy.m"; sourceTree = "<group>"; };
-		E0A4FAEAEE84837783056423389556A3 /* ZPScrollerScaleView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZPScrollerScaleView.modulemap; sourceTree = "<group>"; };
-		E0AE523CA590151E7E80B4156678F4EA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZPScrollerScaleView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		E1C93943C486A43F44F4955F0DBEFAD8 /* ZPScrollerScaleView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPScrollerScaleView.xcconfig; sourceTree = "<group>"; };
+		D75B00C11544873FF26F05407716F791 /* ZPScrollerScaleView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPScrollerScaleView.xcconfig; sourceTree = "<group>"; };
 		E989C7C29B97AEC46E7D9AB98AC9B9AA /* Pods-ZPScrollerScaleView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPScrollerScaleView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EC786E22C28171AE05990A14AD283989 /* Pods-ZPScrollerScaleView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPScrollerScaleView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EE88878A7D214547A5301F6B761AC440 /* Pods-ZPScrollerScaleView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPScrollerScaleView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		042361BF9BFC85025E5B530E89161555 /* Frameworks */ = {
+		0BF0F86FBB715C63383205B36E72314D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB74149B2AD3E8D59DC0EBDF9AD8943F /* Foundation.framework in Frameworks */,
+				9CF9159E6E9EF76E1F0353072112D676 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,14 +101,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15F8B681AA40D0D71FB6B165753D4349 /* Pod */ = {
+		0E57A592A7D4C7F0991F4088E5B65087 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3C931BF5720EF1F45CD5B027114DDA16 /* LICENSE */,
-				221BF9378799EB584B133FF38B01C3E5 /* README.md */,
-				94A14B34635C7C1B3224F8E632605445 /* ZPScrollerScaleView.podspec */,
+				6EB0CE18CC6D1C498C5FA49F0C3785F9 /* ZPScrollerScaleView */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		16A7A243F9F2B0A60B71F6C3E67F6B5A /* Targets Support Files */ = {
@@ -151,12 +151,40 @@
 			path = "Target Support Files/Pods-ZPScrollerScaleView_Example";
 			sourceTree = "<group>";
 		};
-		61896D47FACF762D741643D75985AE78 /* Development Pods */ = {
+		54B20B5A712070C82A6211666FAF5B1F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F19A88F8AC6C4011D36FC1E90F07E089 /* ZPScrollerScaleView */,
+				1EC01181EF1C082AE78C8509071607E6 /* ZPScrollerScaleView.modulemap */,
+				D75B00C11544873FF26F05407716F791 /* ZPScrollerScaleView.xcconfig */,
+				36744633BBAB7D3A928359AF89600561 /* ZPScrollerScaleView-dummy.m */,
+				729A66AA581FF2A58D3489EE6E8CC656 /* ZPScrollerScaleView-Info.plist */,
+				9FEE5D45C8F52AD4418D9E013929900A /* ZPScrollerScaleView-prefix.pch */,
+				44784CAA63E1BF61EA1E89E3A18A37AB /* ZPScrollerScaleView-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZPScrollerScaleView";
+			sourceTree = "<group>";
+		};
+		6EB0CE18CC6D1C498C5FA49F0C3785F9 /* ZPScrollerScaleView */ = {
+			isa = PBXGroup;
+			children = (
+				0A997EED736A078830E951B91CC168C2 /* ZPScrollerScaleView.h */,
+				14111A621F3B69AB0D9060E42A75C708 /* ZPScrollerScaleView.m */,
+				BBB76D8D82129D87866172E0D826C440 /* Pod */,
+				54B20B5A712070C82A6211666FAF5B1F /* Support Files */,
+			);
+			name = ZPScrollerScaleView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BBB76D8D82129D87866172E0D826C440 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8D84B88E2828C88266268186C8CCFD71 /* LICENSE */,
+				7E5FA3979660B2837D7C0F5734B64461 /* README.md */,
+				69D5465E5B50D125B2F88445B2526268 /* ZPScrollerScaleView.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -181,7 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				61896D47FACF762D741643D75985AE78 /* Development Pods */,
+				0E57A592A7D4C7F0991F4088E5B65087 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				C90AA018D5ED68977BE917A00E85B83D /* Products */,
 				16A7A243F9F2B0A60B71F6C3E67F6B5A /* Targets Support Files */,
@@ -196,42 +224,9 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E5A1CD4F3389F63E927848F50DD6952D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E0A4FAEAEE84837783056423389556A3 /* ZPScrollerScaleView.modulemap */,
-				E1C93943C486A43F44F4955F0DBEFAD8 /* ZPScrollerScaleView.xcconfig */,
-				3092D2AD4A982373CDC8AFDB6267E74F /* ZPScrollerScaleView-dummy.m */,
-				17FD4A04F1B6628F46FC96BE71F4A086 /* ZPScrollerScaleView-Info.plist */,
-				8EF764FCDFA9DDB26C6A649DE7C11C01 /* ZPScrollerScaleView-prefix.pch */,
-				60BE2A6BA6CB3AE4A7B268527D39912F /* ZPScrollerScaleView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZPScrollerScaleView";
-			sourceTree = "<group>";
-		};
-		F19A88F8AC6C4011D36FC1E90F07E089 /* ZPScrollerScaleView */ = {
-			isa = PBXGroup;
-			children = (
-				E0AE523CA590151E7E80B4156678F4EA /* ReplaceMe.m */,
-				15F8B681AA40D0D71FB6B165753D4349 /* Pod */,
-				E5A1CD4F3389F63E927848F50DD6952D /* Support Files */,
-			);
-			name = ZPScrollerScaleView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		27274AC8C3F0E3F8D925B44B289B6679 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ABAA9F18ADA8DB4E7AE7F2BE542C86D1 /* ZPScrollerScaleView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		303D26C351FC8F1C8DE0C19708E3D400 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -248,17 +243,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A0D1F11E3CBD743F1F40763258FBD5B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF26BAFBB3A26CC9A551C095945FAF30 /* ZPScrollerScaleView-umbrella.h in Headers */,
+				91C1E56F04A2190139280A4CBA91BB78 /* ZPScrollerScaleView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		31191A1D3489BF48F4B5DF8222F1216E /* ZPScrollerScaleView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 367E7649C20A4C6BC58C4FA4258E37AF /* Build configuration list for PBXNativeTarget "ZPScrollerScaleView" */;
+			buildConfigurationList = 615AF5C2A3E152A524F98785C1265CA6 /* Build configuration list for PBXNativeTarget "ZPScrollerScaleView" */;
 			buildPhases = (
-				27274AC8C3F0E3F8D925B44B289B6679 /* Headers */,
-				363E55B9DDA749D4E638F59FDC3234D5 /* Sources */,
-				042361BF9BFC85025E5B530E89161555 /* Frameworks */,
-				526EA429FB0AC6C8E39D03AA59A4EAF3 /* Resources */,
+				A0D1F11E3CBD743F1F40763258FBD5B5 /* Headers */,
+				3C4D9851B7EB0A6CA59707D1518D76E2 /* Sources */,
+				0BF0F86FBB715C63383205B36E72314D /* Frameworks */,
+				1E1625FB3F63F74C192779548301E106 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -336,6 +340,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1E1625FB3F63F74C192779548301E106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1F25A578B28EFDEF8F39E881D84BFAE3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,22 +361,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		526EA429FB0AC6C8E39D03AA59A4EAF3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		363E55B9DDA749D4E638F59FDC3234D5 /* Sources */ = {
+		3C4D9851B7EB0A6CA59707D1518D76E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38D85DC228EA6A58DAC79E19A792050B /* ReplaceMe.m in Sources */,
-				42F38C1B710BF01A5D90A3F9A621D6E3 /* ZPScrollerScaleView-dummy.m in Sources */,
+				B67FE950E85BBC11B6C2AFF042763303 /* ZPScrollerScaleView-dummy.m in Sources */,
+				D58A8E86BF11868BBEA2C5EAC8C91A3F /* ZPScrollerScaleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,37 +407,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1537FAC80EEBB3392409DBDE14ABF0F0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1C93943C486A43F44F4955F0DBEFAD8 /* ZPScrollerScaleView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZPScrollerScaleView/ZPScrollerScaleView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZPScrollerScaleView/ZPScrollerScaleView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZPScrollerScaleView/ZPScrollerScaleView.modulemap";
-				PRODUCT_MODULE_NAME = ZPScrollerScaleView;
-				PRODUCT_NAME = ZPScrollerScaleView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		244CE7B1720EAD68D5651B3E647D5517 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EE88878A7D214547A5301F6B761AC440 /* Pods-ZPScrollerScaleView_Tests.release.xcconfig */;
@@ -562,6 +535,38 @@
 			};
 			name = Release;
 		};
+		5C961A2C8BB77F64561AADB8609B9A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D75B00C11544873FF26F05407716F791 /* ZPScrollerScaleView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZPScrollerScaleView/ZPScrollerScaleView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZPScrollerScaleView/ZPScrollerScaleView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZPScrollerScaleView/ZPScrollerScaleView.modulemap";
+				PRODUCT_MODULE_NAME = ZPScrollerScaleView;
+				PRODUCT_NAME = ZPScrollerScaleView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -659,6 +664,37 @@
 			};
 			name = Debug;
 		};
+		D2C05EB794F895413E35F9B1020EF424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D75B00C11544873FF26F05407716F791 /* ZPScrollerScaleView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZPScrollerScaleView/ZPScrollerScaleView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZPScrollerScaleView/ZPScrollerScaleView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZPScrollerScaleView/ZPScrollerScaleView.modulemap";
+				PRODUCT_MODULE_NAME = ZPScrollerScaleView;
+				PRODUCT_NAME = ZPScrollerScaleView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		EA2D587CBB72EDD9852A3DEC0493B5ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E989C7C29B97AEC46E7D9AB98AC9B9AA /* Pods-ZPScrollerScaleView_Example.debug.xcconfig */;
@@ -692,38 +728,6 @@
 			};
 			name = Debug;
 		};
-		FC3F5AAAF9849EB6FBD5A84CB7C8DD83 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1C93943C486A43F44F4955F0DBEFAD8 /* ZPScrollerScaleView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZPScrollerScaleView/ZPScrollerScaleView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZPScrollerScaleView/ZPScrollerScaleView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZPScrollerScaleView/ZPScrollerScaleView.modulemap";
-				PRODUCT_MODULE_NAME = ZPScrollerScaleView;
-				PRODUCT_NAME = ZPScrollerScaleView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -736,20 +740,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		367E7649C20A4C6BC58C4FA4258E37AF /* Build configuration list for PBXNativeTarget "ZPScrollerScaleView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1537FAC80EEBB3392409DBDE14ABF0F0 /* Debug */,
-				FC3F5AAAF9849EB6FBD5A84CB7C8DD83 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		615AF5C2A3E152A524F98785C1265CA6 /* Build configuration list for PBXNativeTarget "ZPScrollerScaleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C05EB794F895413E35F9B1020EF424 /* Debug */,
+				5C961A2C8BB77F64561AADB8609B9A97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ZPScrollerScaleView.h"
 
 FOUNDATION_EXPORT double ZPScrollerScaleViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZPScrollerScaleViewVersionString[];
