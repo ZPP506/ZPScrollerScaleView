@@ -1,0 +1,16 @@
+PODS:
+  - ZPScrollerScaleView (0.1.0)
+
+DEPENDENCIES:
+  - ZPScrollerScaleView (from `../`)
+
+EXTERNAL SOURCES:
+  ZPScrollerScaleView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZPScrollerScaleView: 38d2c47802a9041990a83514d62de19d08e41b41
+
+PODFILE CHECKSUM: 7ea1c72fd7d4a08df50ea4ac9e5748ec2c2e264f
+
+COCOAPODS: 1.7.5
