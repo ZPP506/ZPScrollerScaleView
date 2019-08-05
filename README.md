@@ -55,7 +55,7 @@ pod 'ZPScrollerScaleView'
 ZPScrollerScaleView is available under the MIT license. See the LICENSE file for more info.
 
 ##Dome实现案例：
-![gif5新文件.gif](https://upload-images.jianshu.io/upload_images/11285123-431a9d9229599fd6.gif?imageMogr2/auto-orient/strip)
+![gif5新文件.gif](https://upload-images.jianshu.io/upload_images/11285123-15764dd75f068532.gif?imageMogr2/auto-orient/strip)
 
 ## 简书链接
 [https://www.jianshu.com/p/61c6640919e6](https://www.jianshu.com/p/61c6640919e6)
