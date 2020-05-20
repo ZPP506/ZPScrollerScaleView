@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZPScrollerScaleView'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'ZPScrollerScaleView: Loop scroll + scroll scale implementation'
 
 # This description is used to generate tags and improve search results.
