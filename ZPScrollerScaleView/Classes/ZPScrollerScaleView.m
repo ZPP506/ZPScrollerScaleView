@@ -57,7 +57,7 @@
         CGSize pageSize = self.config.pageSize;
         _contentView = [[UIScrollView alloc]initWithFrame:CGRectMake(self.pageMagin,0, pageSize.width, pageSize.height)];
         _contentView.delegate = self;
-        _contentView.pagingEnabled = YES;
+        _contentView.pagingEnabled = self.config.pagingEnabled;
         _contentView.backgroundColor = self.backgroundColor;
         _contentView.showsHorizontalScrollIndicator = NO;
         _contentView.clipsToBounds = NO;

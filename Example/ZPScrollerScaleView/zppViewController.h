@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface zppViewController : UIViewController
+@interface zppViewController : UITableViewController
 
 @end

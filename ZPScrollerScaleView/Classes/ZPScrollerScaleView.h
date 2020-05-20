@@ -24,6 +24,8 @@ NS_ASSUME_NONNULL_BEGIN
 /**最大缩放比建议为 1 这个值若非必要不要进行修改 影响视图展示导致失真*/
 @property (nonatomic, assign) CGFloat scaleMax;
 
+/**是否分页*/
+@property (nonatomic, assign) BOOL pagingEnabled;
 
 @end
 
